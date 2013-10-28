@@ -1,0 +1,140 @@
+/**
+ * @Author     	A973C
+ * @Website  	http://a973c.com
+ * @Twitter  	https://twitter.com/a973c.com
+ *
+ * @Install		See README file for install instructions
+ *
+ * @copyright   Copyright (C) 2011 - 2013 A973C. All rights reserved.
+ * @license     GNU General Public License version 2 or later - see LICENSE.txt
+ */
+
+ 
+/* OFFLINE CSS
+*********************************************/
+html{
+	background-color: #333333;
+    height: 100%;
+    width: 100%;
+}
+body {
+	font-family: 'Open Sans',sans-serif;
+	background-color: transparent;
+	margin: 0;
+	padding: 0;
+	color:#FFF;
+    text-shadow: 1px 1px 1px #000000;
+}
+h1{
+	text-align:center;
+	margin-bottom:50px;
+	font-family: 'Open Sans',sans-serif;
+	font-size:50px;
+}
+img {
+	border: 0 none;
+}
+p {
+	margin: 0;
+}
+#countdown{
+	height:60px;
+	margin-bottom:80px;
+}
+.countdown-container {
+    float: left;
+    height: auto;
+    margin-bottom: 10px;
+    margin-left: 25%;
+    width: 50%;
+}
+.countdown_row {
+    clear: both;
+    font-weight: 400;
+    padding: 0 2px;
+    text-align: center;
+    text-transform: uppercase;
+    width: 50%;
+}
+.countdown_show4 .countdown_section {
+    width: 24.5%;
+}
+.countdown_section {
+    color: #FFFFFF;
+    display: block;
+    float: left;
+    font-size: 100%;
+    text-align: center;
+    text-shadow: 1px 1px 1px #000000;
+}
+.countdown_amount {
+    color: #FFF;
+    font-size: 50px;
+    font-weight: 300;
+    text-shadow: 1px 1px 1px #000000;
+}
+.alert{
+	text-shadow:none;
+}
+.row{
+	background-color:rgba(0, 0, 0, 0.6);
+	padding:20px;
+}
+.row .col-lg-6{
+	height:200px;
+}
+#box-left{
+	border-right:1px solid #666;
+	font-size:25px;
+	text-align:center;
+	line-height:40px;
+}
+#box-left p{
+	margin:auto 0;
+}
+#box-right{
+	padding-left:90px;
+}
+
+#social-links{
+	text-align:center;
+	margin-top:30px;
+}
+#social-links .social{
+	font-size:30px;
+	margin-right:15px;
+    background-color: rgba(0, 0, 0, 0.6);
+	width:45px;
+	height:45px;
+	border-radius:45px;
+	display:inline-block;
+	-webkit-transition: background-color 500ms linear;
+	-moz-transition: background-color 500ms linear;
+	-o-transition: background-color 500ms linear;
+	-ms-transition: background-color 500ms linear;
+	transition: background-color 500ms linear;
+}
+#social-links .social:hover{
+    background-color: rgba(0, 0, 0, 1);
+}
+#social-links .social a{
+	color:#FFFFFF;
+}
+footer {
+    background: none repeat scroll 0 0 rgba(0, 0, 0, 0.9);
+    bottom: 0;
+    height: 30px;
+    position: fixed;
+    width: 100%;
+    z-index: 100;
+	text-align:center;
+	font-size:12px;
+	padding:6px;
+}
+footer i.fa{
+	color:red;
+	margin:0 3px;
+}
+footer p a, footer p a:hover{
+	color:#FFF;
+}
